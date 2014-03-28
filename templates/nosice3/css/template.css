@@ -53,13 +53,11 @@ h1 a:hover, h2 a:hover, h3 a:hover, h4 a:hover, h5 a:hover, h6 a:hover
 
 .art-postcontent a
 {
-  text-decoration: none;
   color: #5E7D31;
 }
 
 .art-postcontent a:link
 {
-  text-decoration: none;
   color: #5E7D31;
 }
 
@@ -70,7 +68,7 @@ h1 a:hover, h2 a:hover, h3 a:hover, h4 a:hover, h5 a:hover, h6 a:hover
 
 .art-postcontent  a:hover, .art-postcontent a.hover
 {
-  text-decoration: underline;
+  text-decoration: none;
   color: #6C921C;
 }
 
@@ -677,7 +675,6 @@ ul.art-hmenu img.art-menu-image-right
 {
   color: #BDE09E;
   padding: 0 14px;
-  margin: 0 4px;
   line-height: 27px;
   text-align: center;
 }
@@ -2496,6 +2493,24 @@ font-size: 19px;
 .dm_taskbar ul li
 {
   background-image: none;
+}
+
+.article_item 
+{
+    text-align: center;
+    font-weight: bold;
+}
+
+.dispensing_place
+{
+    margin: 20px 0 10px 0;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+.content-wrapper
+{
+    margin: 13px 15px 15px 26px;
 }
 
 /* Custom styles */
